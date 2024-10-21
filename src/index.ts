@@ -6,11 +6,11 @@ const strictEquals = (
     return false;
   }
 
-  if (Object.is(valueA, 0) && Object.is(valueB, -0)) {
-    return true;
-  }
-
-  if (Object.is(valueA, -0) && Object.is(valueB, 0)) {
+  if (
+    Object.is(valueA, 0) ||
+    (Object.is(valueA, -0) && Object.is(valueB, -0)) ||
+    Object.is(valueB, 0)
+  ) {
     return true;
   }
 
