@@ -16,5 +16,3 @@ const strictEquals = (
 
   return Object.is(valueA, valueB);
 };
-
-console.log(strictEquals(-0, 0));
