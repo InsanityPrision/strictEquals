@@ -12,7 +12,7 @@ describe("Given the strictEquals function", () => {
     });
   });
 
-  describe("When it recives a value NaN and a value NaN", () => {
+  describe("When it recives a NaN and a NaN", () => {
     test("Then it should return false", () => {
       const valueA = NaN;
       const valueB = NaN;
