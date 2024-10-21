@@ -1,7 +1,7 @@
 {
   "name": "strictequals",
   "version": "1.0.0",
-  "main": "public/js/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc -w"
